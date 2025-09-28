@@ -1,0 +1,167 @@
+#root{
+  background: #060010;
+  color: rgba(255, 255, 255, 0.87);
+  width: 100%;
+  height: fit-content;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section{
+  position: relative;
+  min-height: fit-content;
+  height: fit-content;
+  width: 100%;
+  z-index: 100;
+}
+.container {
+  background-color: #d3dfeb1f;
+  border-radius: 10px;
+  backdrop-filter: blur(60px) grayscale(.5);
+  box-shadow: inset 2px 2px 4px #ffffff2a;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: 1px solid #ffffff52;
+}
+.card{
+  background-color: #d3dfeb1f;
+  border: 1px solid #ffffff52;
+  border-radius: 10px;
+  backdrop-filter: blur(60px) grayscale(.5);
+  box-shadow: inset 2px 2px 4px #ffffff2a;
+  height: 50vh;
+  padding: .7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: left;
+}
+@media screen and (max-width: 640px){
+  .container{
+    width: 96vw;
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+}
+.container-grid {
+  border-radius: 10px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  /* border: 1px solid #ffffff52; */
+}
+.card2{
+  background-color: #d3dfeb1f;
+  border: 1px solid #ffffff52;
+  border-radius: 10px;
+  backdrop-filter: blur(60px) grayscale(.5);
+  box-shadow: inset 2px 2px 4px #ffffff2a;
+  height: 40vh;
+  padding: .7rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-grid2{
+  border-radius: 10px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  overflow: hidden;
+  gap: 20px;
+}
+.card3{
+  /* width:min(320px, 96%); */
+  background-color: #d3dfeb1f;
+  border: 1px solid #ffffff52;
+  border-radius: 10px;
+  backdrop-filter: blur(60px) grayscale(.5);
+  box-shadow: inset 2px 2px 4px #ffffff2a;
+  padding: .7rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+  .container-grid2{
+    gap: 0;
+    margin: 0 .5rem;
+  }
+  .card3{
+    margin: .5rem;
+    padding: .5rem;
+  }
+}
+@media screen and (max-width: 640px){
+  .container-grid2{
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  }
+}
+
+@media screen and (max-width: 768px){
+  .card{
+    margin: .5rem;
+    padding: .5rem;
+  }
+  .container-grid{
+    gap: 0;
+    margin: 0 .5rem;
+  }
+  .card2{
+    margin: .5rem;
+    padding: .5rem;
+  }
+}
+
+/* hero section roles animation */
+.role-container {
+  width: 100%;
+  position: relative;
+  height: 2.5em; /* to fix height */
+  overflow: hidden;
+}
+
+.role-text {
+  position: relative;
+}
+
+.role-text span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  animation: fadeCycle 10s ease-in-out infinite;
+}
+
+/* Sequence each span */
+.role-text span:nth-child(1) { animation-delay: 3s; }
+.role-text span:nth-child(2) { animation-delay: 6s; }
+.role-text span:nth-child(3) { animation-delay: 9s; }
+
+@keyframes fadeCycle {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  25% { opacity: 1; }
+  28% { opacity: 0.2; }
+  30% { opacity: 0; }
+  100% { opacity: 0; }
+}

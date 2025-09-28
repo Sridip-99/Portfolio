@@ -1,0 +1,52 @@
+
+/* ==================================== HEADER STYLING ==================================== */
+header {
+    margin: 0 auto;
+    /* width: 70%; */
+    /* border-radius: 40px; */
+    height: fit-content;
+    /* top: 3rem; */
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: inset 2px 2px 4px #96969660, 2px 2px 2px #0000005d;
+    backdrop-filter: blur(10px) grayscale(.6);
+    border-style: solid;
+    border-color: #ffffff28;
+    background-color: #2c2c2c0e;
+    z-index: 1000;
+    transition: top 0.2s linear, width 0.2s linear, border-width 0.2s linear, border-radius 0.2s linear;
+    a{
+        text-decoration: none;
+    }
+}
+#branding {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .3rem;
+    margin-left: 10px;
+    padding: 10px;
+}
+.logo {
+    width: auto;
+    transition: height 0.2s linear;
+}
+#logo-mobile{
+    display: none;
+}
+#branding h1 {
+    margin: 0;
+    font-weight: 500;
+    color: #fff;
+    transition: font-size 0.2s linear;
+}
+
+
+@media screen and (max-width: 1023px) {
+    #logo-pc{ display: none; }
+    #logo-mobile{ display: block; }
+    header{width: 90%; background:linear-gradient(30deg, #0000002d, #55bcec38); }
+}

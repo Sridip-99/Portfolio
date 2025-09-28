@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* @custom-variant dark (&:is(.dark *)); */
+
+@theme{
+  /* CSS HEX */
+    --color-oxford-blue: #0b132bff;
+    --color-space-cadet: #1c2541ff;
+    --color-yinmn-blue: #3a506bff;
+    --color-verdigris: #5bc0beff;
+    --color-white: #ffffffff;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+body::-webkit-scrollbar{
+    display: block;
+    width: .35rem;
+    background: linear-gradient(120deg, #3a506b ,#1c2541, #3a506b);
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background: #5bc0be;
+}
+@media screen and (max-width:768px){
+    body::-webkit-scrollbar{
+        display: none;
+    }
+}
