@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className='w-full mx-auto my-0 p-4 text-slate-300 bg-slate-900 text-xl text-center z-51 rounded-tl-2xl rounded-tr-2xl'>
+      <div className='w-full mx-auto my-0 p-4 text-slate-300 bg-slate-900 text-lg md:text-xl text-center z-51 rounded-tl-2xl rounded-tr-2xl'>
         <p>
           <a href="https://sridiptah99.netlify.app" className='hover:text-slate-400'>Sridip Tah</a>
           <span className='font-semibold'> || </span>
@@ -14,5 +14,6 @@ const Footer = () => {
     </>
   )
 }
+
 
 export default Footer
