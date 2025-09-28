@@ -92,7 +92,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <a href="#about" className='w-[85vw] md:hidden flex flex-row justify-start items-center gap-2 mt-0 py-1 cursor-pointer'>
+        <a href="#about" className='w-[95vw] md:hidden flex flex-row justify-start items-center gap-2 mt-0 py-1 cursor-pointer'>
             <p className='w-full px-2 py-2 text-center text-slate-300 font-semibold backdrop-blur-xl bg-transparent border-2 border-slate-400 rounded-2xl hover:bg-slate-700 hover:text-white transition-all duration-300'>
               SCROLL DOWN
             </p>
@@ -112,5 +112,6 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
