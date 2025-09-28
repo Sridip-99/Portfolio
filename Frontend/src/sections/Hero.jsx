@@ -54,7 +54,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className='w-[85vw] md:w-[45%] h-[50vh] md:h-[60vh] flex flex-col justify-center items-center gap-2 '>
+        <div className='w-[90vw] md:w-[45%] h-[50vh] md:h-[60vh] flex flex-col justify-center items-center gap-2 '>
           <div className='w-full h-[50%] flex justify-center items-center gap-2 text-gray-100'>
             <div className='w-[40%] h-full flex flex-col justify-center items-center bg-space-cadet text-gray-100 rounded-3xl'>
               <a href="https://github.com/sridip-99" target="_blank" rel="noopener noreferrer" className='flex flex-col justify-center items-center text-center pointer'>
@@ -92,7 +92,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <a href="#about" className='w-[95vw] md:hidden flex flex-row justify-start items-center gap-2 mt-0 py-1 cursor-pointer'>
+        <a href="#about" className='w-[90vw] md:hidden flex flex-row justify-start items-center gap-2 mt-0 py-1 cursor-pointer'>
             <p className='w-full px-2 py-2 text-center text-slate-300 font-semibold backdrop-blur-xl bg-transparent border-2 border-slate-400 rounded-2xl hover:bg-slate-700 hover:text-white transition-all duration-300'>
               SCROLL DOWN
             </p>
@@ -112,6 +112,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
