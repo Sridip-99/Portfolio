@@ -66,7 +66,7 @@ const ContactForm = () => {
     }
 
     try {
-        const res = await fetch(`${API_URL}contact/`, {
+        const res = await fetch(`${API_URL}/contact/`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -212,3 +212,4 @@ const ContactForm = () => {
 
 
 export default ContactForm;
+
