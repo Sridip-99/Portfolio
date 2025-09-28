@@ -12,21 +12,22 @@ const Testimonials = () => {
       text: `"Sridip Tah was an exceptionally sharp and proactive analyst. Their work delivered immediate operational value to our security team. A top-tier talent we highly recommend."`,
       name: "Prashant R.",
       role: "CEO, InlighnX Global Pvt.Ltd.",
-      img: "../src/assets/img/testimonials/model1.webp",
+      img: "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/testimonials/model1.webp",
     },
     {
       text: `"Beautiful design and so easy for clients to use! It's made my studio look incredibly professional and is already growing my bookings."`,
       name: "Puja J.",
       role: "Owner & Makeup Artist",
-      img: "../src/assets/img/testimonials/model2.webp",
+      img: "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/testimonials/model2.webp",
     },
     {
       text: `"Honestly, you're the best project partner. You not only tackle the toughest problems but your code is always so clean and easy to integrate. You make our deadlines feel way less stressful!"`,
       name: "Shrikant G.",
       role: "Project Mate",
-      img: "../src/assets/img/testimonials/model3.webp",
+      img: "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/testimonials/model3.webp",
     },
   ];
+
 
   // Animate function
   const animate = (i) => {
@@ -110,3 +111,4 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+
