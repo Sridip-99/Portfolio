@@ -1,12 +1,12 @@
 services:
   - type: web
-    name: Portfolio_Email_Service
+    name: Backend
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn Portfolio_Email_Service.wsgi:application
+    startCommand: gunicorn Backend.wsgi:application
     envVars:
       - key: DJANGO_SETTINGS_MODULE
-        value: Secpdf.settings
+        value: Backend.settings
       - key: SECRET_KEY
         generateValue: true
       - key: DEBUG
