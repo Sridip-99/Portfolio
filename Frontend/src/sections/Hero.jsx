@@ -55,14 +55,14 @@ const Hero = () => {
               </a>
             </div>
             <div className="w-[60%] h-full flex justify-center items-center brightness-85
-              bg-[url('./src/assets/img/hero/code.webp')]
+              bg-[url('https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/hero/code.webp')]
               bg-cover bg-center bg-no-repeat border-4 border-yinmn-blue rounded-ss-3xl rounded-ee-3xl rounded-es-md rounded-se-md">
             </div>
           </div>
 
           <div className='w-full h-[50%] flex justify-center items-center gap-2 text-gray-100'>
             <div className="w-[60%] h-full flex justify-center items-center brightness-85
-              bg-[url('./src/assets/img/hero/design.webp')]
+              bg-[url('https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/hero/design.webp')]
               bg-cover bg-center bg-no-repeat border-4 border-yinmn-blue rounded-ss-3xl rounded-ee-3xl rounded-es-md rounded-se-md">
             </div>
             <div className='w-[40%] h-full flex justify-center items-center bg-space-cadet text-gray-100 rounded-3xl'>
