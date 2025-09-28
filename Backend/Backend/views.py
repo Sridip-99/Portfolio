@@ -7,19 +7,31 @@ import json
 @csrf_exempt
 def contact_view(request):
     if request.method == "POST":
-        data = json.loads(request.body)
+        try:
+            data = json.loads(request.body.decode("utf-8"))  # decode for safety
+        except Exception as e:
+            return JsonResponse({"status": "error", "message": f"Invalid JSON: {str(e)}"}, status=400)
+
         name = data.get("name")
         email = data.get("email")
         message = data.get("message")
-        subject = f"{name} send you a message from your Portfolio"
 
-        send_mail(
-            subject,
-            message=f"Email: {email}\n\nMessage:\n{message}\n\nName:\n{name}",
-            from_email=settings.EMAIL_HOST_USER,
-            recipient_list=[settings.EMAIL_RECEIVER],  # where you want to receive
-            fail_silently=False,
-        )
+        if not name or not email or not message:
+            return JsonResponse({"status": "error", "message": "All fields are required"}, status=400)
+
+        subject = f"{name} sent you a message from your Portfolio"
+
+        try:
+            send_mail(
+                subject,
+                message=f"Email: {email}\n\nMessage:\n{message}\n\nName:\n{name}",
+                from_email=settings.EMAIL_HOST_USER,
+                recipient_list=[settings.EMAIL_RECEIVER],
+                fail_silently=False,
+            )
+        except Exception as e:
+            return JsonResponse({"status": "error", "message": f"Email sending failed: {str(e)}"}, status=500)
 
         return JsonResponse({"status": "success", "message": "Email sent successfully!"}, status=200)
+
     return JsonResponse({"status": "error", "message": "Invalid request"}, status=400)
