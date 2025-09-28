@@ -9,7 +9,7 @@ const Education = () => {
     {
         "id": 1,
         "schoolName" : "Simlon A.K. Vidyamandir",
-        "image" : "../src/assets/img/education/sakv.webp",
+        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/education/sakv.webp",
         "imgAltText" : "Simlon A.K. Vidyamandir school image",
         "board" : "WBBSE",
         "session" : "JAN 2013 - FEB 2019",
@@ -20,7 +20,7 @@ const Education = () => {
     {
         "id": 2,
         "schoolName" : "Simlon A.K. Vidyamandir",
-        "image" : "../src/assets/img/education/sakv.webp",
+        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/education/sakv.webp",
         "imgAltText" : "Simlon A.K. Vidyamandir school image",
         "board" : "WBCHSE",
         "session" : "MAY 2019 - JUN 2021",
@@ -31,7 +31,7 @@ const Education = () => {
     {
         "id": 3,
         "schoolName" : "Techno Main Salt Lake",
-        "image" : "../src/assets/img/education/tmsl.webp",
+        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/education/tmsl.webp",
         "imgAltText" : "Techno Main Salt Lake college image",
         "board" : "MAKAUT",
         "session" : "AUG 2021 - JUN 2025",
@@ -84,5 +84,6 @@ const Education = () => {
     </>
   )
 }
+
 
 export default Education
