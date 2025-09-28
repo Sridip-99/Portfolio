@@ -28,7 +28,7 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="py-12 px-6 md:px-12 text-white min-h-[100vh]"
+      className="py-12 px-2 md:px-6 md:px-12 text-white min-h-[100vh]"
     >
         <ScrollFloat
             animationDuration={1}
@@ -140,3 +140,4 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+
