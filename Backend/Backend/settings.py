@@ -1,5 +1,6 @@
 from pathlib import Path
 from decouple import config
+import resend
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -71,3 +72,4 @@ EMAIL_RECEIVER = config("EMAIL_RECEIVER")  # Verified recipient
 # --------------------------------------------------
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
