@@ -66,7 +66,7 @@ const ContactForm = () => {
     if (!validate()) {
       return;
     }
-
+console.log("Sending formData:", formData); //test
     try {
         const res = await fetch(`${baseURL}/contact/`, {
         method: "POST",
@@ -213,3 +213,4 @@ const ContactForm = () => {
 }
 
 export default ContactForm;
+
