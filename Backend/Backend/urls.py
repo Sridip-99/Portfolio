@@ -20,6 +20,7 @@ from Backend.views import contact_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/contact/', contact_view, name="contact"),
+    path('//contact/', contact_view, name="contact"),
 ]
+
 
