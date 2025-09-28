@@ -1,4 +1,4 @@
-from resend import Resend
+import resend
 from django.conf import settings
 
 resend = Resend(api_key=settings.RESEND_API_KEY)
