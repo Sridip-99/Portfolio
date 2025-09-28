@@ -18,13 +18,13 @@ const Nav = () => {
             </nav>
             <div className="social-links">
                 <a href="https://www.linkedin.com/in/sridip-tah99" target="_blank" rel="noopener noreferrer">
-                    <img src="/src/assets/img/social-icons/linkedin.webp" width="30px" alt="Linkedin"/>
+                    <img src="https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/social-icons/linkedin.webp" width="30px" alt="Linkedin"/>
                 </a>
                 <a href="https://www.facebook.com/sridip.tah.7" target="_blank" rel="noopener noreferrer">
-                    <img src="/src/assets/img/social-icons/facebook.webp" width="30px" alt="Facebook"/>
+                    <img src="https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/social-icons/facebook.webp" width="30px" alt="Facebook"/>
                 </a>
                 <a href="https://wa.me/+919883391286" target="_blank" rel="noopener noreferrer">
-                    <img src="/src/assets/img/social-icons/whatsapp.webp"  width="30px" alt="Whatsapp"/>
+                    <img src="https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/social-icons/whatsapp.webp"  width="30px" alt="Whatsapp"/>
                 </a>
             </div>
 
