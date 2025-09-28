@@ -1,19 +1,32 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Aurora from '../components/Aurora'
 import SplashCursor from '../components/SplashCursor'
 
+function useIsMobile(breakpoint = 640) {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < breakpoint);
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < breakpoint);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [breakpoint]);
+  return isMobile;
+}
+
 const Hero = () => {
+  const isMobile = useIsMobile();
   return (
     <>
-      <SplashCursor/>
-      <Aurora
-        colorStops={["#3a506b", "#5bc0be", "#1c2541"]}
-        blend={0.5}
-        amplitude={1.0}
-        speed={0.5}
-      />
+      {!isMobile && <SplashCursor />}
+      {!isMobile && (
+        <Aurora
+          colorStops={["#3a506b", "#5bc0be", "#1c2541"]}
+          blend={0.5}
+          amplitude={1.0}
+          speed={0.5}
+        />
+      )}
 
-      <div className='z-50 absolute top-[15vh] md:top-[25vh] max-w-[1100px] w-full mx-auto flex flex-col md:flex-row justify-center items-center gap-4 lg:gap-[20px] px-2 md:px-0'>
+      <div className='z-50 min-h-[85vh] mb-10 relative md:absolute top-[15vh] md:top-[25vh] max-w-[1100px] w-full mx-auto flex flex-col md:flex-row justify-center items-center gap-4 lg:gap-[20px] px-2 md:px-0'>
         <div className='w-full md:w-[55%] h-fit md:h-[60vh] flex flex-col justify-center items-start gap-2 md:gap-4 text-gray-100'>
           <h2 className="text-4xl md:text-5xl text-left text-slate-100 font-bold mx-10">Sridip Tah</h2>
           <div className="role-container">
