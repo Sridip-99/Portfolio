@@ -13,6 +13,8 @@ function useIsMobile(breakpoint = 640) {
 }
 
 const API_URL = import.meta.env.VITE_API_URL;
+const baseURL = API_URL.replace(/\/+$/, ""); // Remove trailing slashes if any
+
 const ContactForm = () => {
   const isMobile = useIsMobile();
   const [formData, setFormData] = useState({
@@ -66,7 +68,7 @@ const ContactForm = () => {
     }
 
     try {
-        const res = await fetch(`${API_URL}/contact/`, {
+        const res = await fetch(`${baseURL}/contact/`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -210,6 +212,4 @@ const ContactForm = () => {
   );
 }
 
-
 export default ContactForm;
-
