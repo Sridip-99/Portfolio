@@ -25,9 +25,9 @@ SECRET_KEY = 'django-insecure-*ye8b*gas%rg5z=j7kds!(*^k8tthe5hmzzy=+swib$#hp4hns
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','portfolioemail.onrender.com']
-
 from decouple import config
+
+ALLOWED_HOSTS = config("ALLOWED_HOSTS").split(",")
 # CORS
 CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS').split(',')
 
@@ -137,4 +137,5 @@ EMAIL_RECEIVER = config('EMAIL_RECEIVER')
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
