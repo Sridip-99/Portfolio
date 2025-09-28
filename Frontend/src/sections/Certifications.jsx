@@ -7,37 +7,37 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIdBadge } from '@fortawesome/free-brands-svg-icons/faGithub';
 
 const Certifications = () => {
-        const certificate = [
+            const certificate = [
     // {JSON DATA}
     {
         "id": 1,
         "name" : "Cloud Foundations",
-        "imgLink" : "../src/assets/img/certificates/cert-1.webp",
+        "imgLink" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/certificates/cert-1.webp",
         "imgAltText" : "AWS Academy Cloud Foundations image",
         "issued" : "AWS Academy",
     },
     {
         "id": 2,
         "name" : "Journey to Cloud",
-        "imgLink" : "../src/assets/img/certificates/cert-2.webp",
+        "imgLink" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/certificates/cert-2.webp",
         "imgAltText" : "IBM Journey to Cloud image",
         "issued" : "IBM",
     },
     {
         "id": 3,
         "name" : "CyberSecurity Fundamentals",
-        "imgLink" : "../src/assets/img/certificates/cert-3.webp",
+        "imgLink" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/certificates/cert-3.webp",
         "imgAltText" : "Palo Alto CyberSecurity Fundamentals image",
         "issued" : "Palo Alto",
     },
     {
         "id": 4,
         "name" : "Offensive CyberSecurity Internship",
-        "imgLink" : "../src/assets/img/certificates/cert-4.webp",
+        "imgLink" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/certificates/cert-4.webp",
         "imgAltText" : "InlighnX Global Pvt Ltd Offensive CyberSecurity Internship image",
         "issued" : "InlighnX Global Pvt Ltd",
     }
-  ]
+  ];
   return (
     <>
         <section id='certifications'>
@@ -120,5 +120,6 @@ const Certifications = () => {
     </>
   )
 }
+
 
 export default Certifications
