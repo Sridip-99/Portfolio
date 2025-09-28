@@ -40,7 +40,7 @@ const ContactSection = () => {
             Contact.
         </ScrollFloat>
 
-        <div className="max-w-3xl mt-[7vh] mx-auto grid md:grid-cols-2 gap-8 items-center border-1 border-gray-500 shadow-[inset_2px_2px_18px_rgba(204,204,204,.3)] rounded-xl p-6 backdrop-blur-2xl backdrop-grayscale-3xl">
+        <div className="max-w-3xl mt-[7vh] mx-auto grid md:grid-cols-2 gap-8 items-center border-1 border-gray-500 shadow-[inset_2px_2px_18px_rgba(204,204,204,.3)] rounded-xl p-3 md:p-6 backdrop-blur-2xl backdrop-grayscale-3xl">
         {/* Left side - Profile & Info */}
         <motion.div
           initial={isMobile ? { opacity: 0, y: 40 } : { opacity: 0, x: -40 }}
@@ -140,6 +140,7 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+
 
 
 
