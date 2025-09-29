@@ -108,16 +108,16 @@ const ProjectCardsContainer = () => {
         {projects.map((elem, idx) => (
           <AnimatedContent
             key={elem.id}
-            distance={50}
+            distance={100}
             direction="vertical"
             reverse={false}
-            duration={1}
+            duration={0.8}
             ease="power3.out"
-            initialOpacity={0.2}
+            initialOpacity={0.5}
             animateOpacity
             scale={0.8}
             threshold={0.1}
-            delay={0.3 + (idx >= 3 ? (idx - 3) * 0.1 : idx * 0.1)}
+            delay={0 + (idx >= 3 ? (idx - 3) * 0.3 : idx * 0.3)}
           >
             <ProjectCard {...elem} onExpand={handleExpand} isExpanded={false} />
           </AnimatedContent>
@@ -194,3 +194,4 @@ const ProjectCardsContainer = () => {
 };
 
 export default ProjectCardsContainer;
+
