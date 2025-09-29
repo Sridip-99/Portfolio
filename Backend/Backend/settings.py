@@ -4,7 +4,7 @@ import resend
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-*ye8b*gas%rg5z=j7kds!(*^k8tthe5hmzzy=+swib$#hp4hns'
+SECRET_KEY = config("APP_KEY")
 DEBUG = False
 
 ALLOWED_HOSTS = config("ALLOWED_HOSTS").split(",")
@@ -72,4 +72,5 @@ EMAIL_RECEIVER = config("EMAIL_RECEIVER")  # Verified recipient
 # --------------------------------------------------
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
