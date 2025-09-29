@@ -139,10 +139,9 @@ const ProjectCardsContainer = () => {
             </motion.div>
         </AnimatePresence>
         )}
-
-      {/* Footer GitHub link */}
+      
       <div className="max-w-[1100px] m-auto rounded-md bg-[#0000007f] text-center lg:text-left">
-        <p className="py-1 px-2 m-0 rounded-md backdrop-blur-2xl text-xl">
+        <p className="py-1 px-2 m-0 rounded-md backdrop-blur-2xl text-xl md:text-3xl">
           <DecryptedText
             text="Checkout my "
             speed={100}
@@ -194,5 +193,6 @@ const ProjectCardsContainer = () => {
 };
 
 export default ProjectCardsContainer;
+
 
 
