@@ -148,7 +148,7 @@ const ProjectCardsContainer = () => {
             speed={100}
             animateOn="view"
             revealDirection="left"
-            maxIterations={20}
+            maxIterations={10}
             characters="ABCD1234!?"
             className="revealed"
             parentClassName="all-letters"
@@ -169,7 +169,7 @@ const ProjectCardsContainer = () => {
               speed={100}
               animateOn="view"
               revealDirection="left"
-              maxIterations={20}
+              maxIterations={10}
               characters="ABCD1234!?"
               className="revealed"
               parentClassName="all-letters"
@@ -181,7 +181,7 @@ const ProjectCardsContainer = () => {
             speed={100}
             animateOn="view"
             revealDirection="left"
-            maxIterations={20}
+            maxIterations={10}
             characters="ABCD1234!?"
             className="revealed"
             parentClassName="all-letters"
@@ -194,4 +194,5 @@ const ProjectCardsContainer = () => {
 };
 
 export default ProjectCardsContainer;
+
 
