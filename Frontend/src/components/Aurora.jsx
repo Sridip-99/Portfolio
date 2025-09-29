@@ -128,9 +128,7 @@ export default function Aurora(props) {
     gl.enable(gl.BLEND);
     gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA);
     gl.canvas.style.backgroundColor = 'transparent';
-    gl.canvas.style.position = 'absolute';
-    gl.canvas.style.top = '0';
-    gl.canvas.style.height = '80vh';
+    gl.canvas.style.height = '100vh';
 
     let program;
 
@@ -199,5 +197,5 @@ export default function Aurora(props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [amplitude]);
 
-  return (<div ref={ctnDom} className="w-full h-[100vh]"/>)
-};
+  return <div ref={ctnDom} className="w-full h-full" />;
+}
