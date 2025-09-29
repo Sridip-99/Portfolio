@@ -15,7 +15,7 @@ const About = () => {
         About.
         </ScrollFloat>  
         <div className='container'>
-            <div className='w-[100%] text-zinc-300 lg:w-[70%]'>
+            <div className='w-[100%] text-zinc-300 lg:w-[65%]'>
                 <p className="text-md text-left mb-4" >
                     Hi, I&apos;m <span className='text-slate-400 font-semibold'>Sridip</span>, a B.Tech IT graduate and passionate engineer. I&apos;ve chosen this path not just for a career, but because I genuinely enjoy solving problems and building things that make an impact.
                 </p>
@@ -43,7 +43,7 @@ const About = () => {
                     <a href="https://drive.google.com/drive/folders/1zeU6xw21xl136uo0XIlVDQNz3tXtktn1?usp=sharing" target="_blank" rel="noopener noreferrer" className=' px-3 py-2 text-gray-300 rounded-sm border-2 border-gray-500 font-semibold transition-all duration-300 ease-in-out hover:text-white hover:backdrop-blur-2xl'>Download CV</a>
                 </div>
             </div>
-            <div className='w-[100%] overflow-hidden rounded-ss-3xl rounded-ee-3xl rounded-es-md rounded-se-md lg:w-[30%]'>
+            <div className='w-[100%] overflow-hidden rounded-ss-3xl rounded-ee-3xl rounded-es-md rounded-se-md lg:w-[35%]'>
                 <img 
                     className='w-[100%] h-auto'
                     src="./profile.webp"
@@ -58,3 +58,4 @@ const About = () => {
 
 
 export default About
+
