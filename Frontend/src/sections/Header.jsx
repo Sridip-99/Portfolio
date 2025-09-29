@@ -42,6 +42,7 @@ const Header = () => {
   const top = isMobile ? 1 - 1 * progress : 3 - 3 * progress; // rem
   const width = isMobile ? 90 + 10 * progress : 72 + 28 * progress; // %
   const borderWidth = .2 - .2 * progress; // px
+  const boxShadowWidth = 2 - 2 * progress; // px
   const borderRadius = 40 - 25 * progress; // px
   const borderRadius2 = 40 - 40 * progress; // px
   const logoHeight = 30 + 20 * progress; // px
@@ -55,7 +56,8 @@ const Header = () => {
           top: `${top}rem`,
           width: `${width}%`,
           borderWidth: `${borderWidth}px`,
-          borderRadius: `${borderRadius2}px ${borderRadius2}px ${borderRadius}px ${borderRadius}px`
+          borderRadius: `${borderRadius2}px ${borderRadius2}px ${borderRadius}px ${borderRadius}px`,
+          boxShadow: `inset ${boxShadowWidth}px ${boxShadowWidth}px 4px #96969660, ${boxShadowWidth}px ${boxShadowWidth}px 2px #0000005d`
         }}
       >
         <a href="https://sridiptah99.netlify.app/">
@@ -79,5 +81,6 @@ const Header = () => {
     </>
   )
 }
+
 
 export default Header
