@@ -95,7 +95,7 @@ const ContactSection = () => {
                 playOnce={false}
               >
                 <div className="w-full h-full flex items-center justify-between bg-slate-800 rounded-lg px-4 py-3 rounded-lg border-1 border-gray-500 transition-all duration-300 ease-in-out hover:bg-slate-900">
-                  <span className="font-thin text-zinc-400">Email:</span>
+                  <span className="font-light text-zinc-400">Email:</span>
                   <span className="font-semibold text-slate-300">sridip2003@gmail.com</span>
                 </div>
               </GlareHover>
@@ -140,6 +140,7 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+
 
 
 
