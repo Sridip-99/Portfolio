@@ -55,7 +55,7 @@ const Certifications = () => {
                 {certificate.map((elem,idx) => (
                     <AnimatedContent
                         key={idx}
-                        distance={50}
+                        distance={100}
                         direction="vertical"
                         reverse={false}
                         duration={1}
@@ -123,5 +123,6 @@ const Certifications = () => {
 
 
 export default Certifications
+
 
 
