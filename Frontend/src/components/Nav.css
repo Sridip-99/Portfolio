@@ -117,8 +117,6 @@ nav ul li a:hover {
         gap: 0;
         margin: 0;
         padding: 0;
-        backdrop-filter: blur(5rem) grayscale(0.6);
-        box-shadow: inset 2px 2px 14px #0000002a; 
         overflow: hidden;
         animation: float-in .5s ease-in-out;
         transition: all 0.3s ease-in-out;
@@ -143,6 +141,7 @@ nav ul li a:hover {
         border: 0;
         border-radius: 0;
         background-color: #020617e0;
+        box-shadow: inset 3px 3px 15px rgba(255, 255, 255, 0.3); 
     }
     nav ul {
         width: 100%;
@@ -180,10 +179,11 @@ nav ul li a:hover {
         justify-content: center;
         gap: 20px;
         background: linear-gradient(120deg, #030042, #0f0f0f);
-        box-shadow: none;
+        box-shadow: inset 3px -3px 15px rgba(255, 255, 255, 0.3); 
         padding: 10px 0;
     }
     #hamburger:checked ~ .navBar { display: flex !important; }
 
 }
+
 
