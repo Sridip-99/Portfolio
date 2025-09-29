@@ -166,8 +166,8 @@ nav ul li a:hover {
         transition: all 0.3s ease-in-out;
     }
     nav ul li a:hover {
-        color: #00ccff;
-        background: linear-gradient(to right, #1e004380, #3d038350);
+        color: #5bc0beff;
+        background: linear-gradient(to right, #00204380, #03078350);
         transition: all 0.3s ease-in-out;
     }
     .social-links {
@@ -179,10 +179,11 @@ nav ul li a:hover {
         align-items: center;
         justify-content: center;
         gap: 20px;
-        background: linear-gradient(120deg, #1e0043, #0f0f0f);
+        background: linear-gradient(120deg, #030042, #0f0f0f);
         box-shadow: none;
         padding: 10px 0;
     }
     #hamburger:checked ~ .navBar { display: flex !important; }
 
 }
+
