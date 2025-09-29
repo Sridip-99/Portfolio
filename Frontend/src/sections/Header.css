@@ -11,7 +11,6 @@ header {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    box-shadow: inset 2px 2px 4px #96969660, 2px 2px 2px #0000005d;
     backdrop-filter: blur(10px) grayscale(.6);
     border-style: solid;
     border-color: #ffffff28;
@@ -49,4 +48,5 @@ header {
     #logo-pc{ display: none; }
     #logo-mobile{ display: block; }
     header{width: 90%; background:linear-gradient(30deg, #0000002d, #55bcec38); }
+
 }
