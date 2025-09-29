@@ -61,7 +61,7 @@ const Education = () => {
                         reverse={true}
                         duration={1}
                         ease="power3.out"
-                        initialOpacity={0.5}
+                        initialOpacity={0.25}
                         animateOpacity
                         scale={.8}
                         threshold={0.1}
@@ -87,5 +87,6 @@ const Education = () => {
 
 
 export default Education
+
 
 
