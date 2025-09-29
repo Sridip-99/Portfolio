@@ -2,22 +2,22 @@ import React, { useState, useEffect } from 'react'
 import Aurora from '../components/Aurora'
 import SplashCursor from '../components/SplashCursor'
 
-function useIsMobile(breakpoint = 640) {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < breakpoint);
+function useIsTablet(breakpoint = 768) {
+  const [isTablet, setIsTablet] = useState(window.innerWidth < breakpoint);
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < breakpoint);
+    const handleResize = () => setIsTablet(window.innerWidth < breakpoint);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, [breakpoint]);
-  return isMobile;
+  return isTablet;
 }
 
 const Hero = () => {
-  const isMobile = useIsMobile();
+  const isTablet = useIsTablet();
   return (
     <>
-      {!isMobile && <SplashCursor />}
-      {!isMobile && (
+      {!isTablet && <SplashCursor />}
+      {!isTablet && (
         <Aurora
           colorStops={["#3a506b", "#5bc0be", "#1c2541"]}
           blend={0.5}
@@ -112,6 +112,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
