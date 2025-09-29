@@ -5,6 +5,10 @@ from .utils.email_sender import send_email
 from django.conf import settings
 
 @csrf_exempt
+
+def ping(request):
+    return JsonResponse({"status": "ok"}, status=200)
+    
 def contact_view(request):
     if request.method == "POST":
         try:
@@ -53,4 +57,5 @@ def contact_view(request):
         return JsonResponse({"status": "success", "message": "Email sent successfully!"}, status=200)
 
     return JsonResponse({"status": "error", "message": "Invalid request"}, status=400)
+
 
