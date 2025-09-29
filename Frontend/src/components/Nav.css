@@ -142,7 +142,7 @@ nav ul li a:hover {
         justify-content: center;
         border: 0;
         border-radius: 0;
-        background-color: #020617;
+        background-color: #020617e0;
     }
     nav ul {
         width: 100%;
@@ -184,4 +184,5 @@ nav ul li a:hover {
         padding: 10px 0;
     }
     #hamburger:checked ~ .navBar { display: flex !important; }
+
 }
