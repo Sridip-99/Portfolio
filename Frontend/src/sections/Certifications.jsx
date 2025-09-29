@@ -96,7 +96,7 @@ const Certifications = () => {
                             speed={100}
                             animateOn="view"
                             revealDirection="left"
-                            maxIterations={20}
+                            maxIterations={10}
                             characters="ABCD1234!?"
                             className="revealed"
                             parentClassName="all-letters"
@@ -108,7 +108,7 @@ const Certifications = () => {
                         speed={100}
                         animateOn="view"
                         revealDirection="left"
-                        maxIterations={20}
+                        maxIterations={10}
                         characters="ABCD1234!?"
                         className="revealed"
                         parentClassName="all-letters"
@@ -123,6 +123,7 @@ const Certifications = () => {
 
 
 export default Certifications
+
 
 
 
