@@ -14,6 +14,7 @@ const imageLogos = [
   { src: "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/logoloop/CSS.webp", alt: "CSS 3", href: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
   { src: "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/logoloop/JAVASCRIPT.webp", alt: "JS", href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
   { src: "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/logoloop/REACT JS.webp", alt: "REACT JS", href: "https://react.dev/" },
+  { src: "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/logoloop/VITE.webp", alt: "VITE", href: "https://vite.dev/" },
   { src: "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/logoloop/TAILWIND CSS.webp", alt: "TAILWIND CSS", href: "https://tailwindcss.com/" },
   { src: "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/logoloop/NETLIFY.webp", alt: "NETLIFY", href: "https://www.netlify.com/" },
   { src: "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/logoloop/JAVA.webp", alt: "JAVA", href: "https://www.java.com/en/" },
@@ -73,3 +74,4 @@ const Main = () => {
 
 
 export default Main
+
