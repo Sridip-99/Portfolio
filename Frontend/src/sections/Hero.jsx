@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <>
       <section id='hero' className='flex justify-center items-center h-screen w-full overflow-hidden relative bg-[rgb(6,0,16)]'>
-      /* {!isTablet && <SplashCursor />} */
+     
       {!isTablet && (
         <Aurora
           colorStops={["#3a506b", "#5bc0be", "#1c2541"]}
@@ -116,6 +116,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
