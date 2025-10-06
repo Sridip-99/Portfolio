@@ -25,7 +25,7 @@ const Hero = () => {
           colorStops={["#3a506b", "#5bc0be", "#1c2541"]}
           blend={0.5}
           amplitude={1.0}
-          speed={0.5}
+          speed={0.25}
         />
       )}
 
@@ -116,6 +116,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
