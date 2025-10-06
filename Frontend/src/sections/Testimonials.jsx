@@ -90,7 +90,7 @@ const Testimonials = () => {
                     <p>{item.name}</p>
                     <p>{item.role}</p>
                     </div>
-                    <img className="image" src={item.img} alt={item.name} />
+                    <img loading="lazy" className="image" src={item.img} alt={item.name} />
                 </li>
                 ))}
             </ul>
@@ -111,4 +111,5 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+
 
