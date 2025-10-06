@@ -144,10 +144,10 @@ const ProjectCardsContainer = () => {
         <p className="py-1 px-2 m-0 rounded-md backdrop-blur-2xl text-xl md:text-3xl">
           <DecryptedText
             text="Checkout my "
-            speed={100}
+            speed={60}
             animateOn="view"
             revealDirection="left"
-            maxIterations={10}
+            maxIterations={5}
             characters="ABCD1234!?"
             className="revealed"
             parentClassName="all-letters"
@@ -165,10 +165,10 @@ const ProjectCardsContainer = () => {
             />
             <DecryptedText
               text="Github"
-              speed={100}
+              speed={60}
               animateOn="view"
               revealDirection="left"
-              maxIterations={10}
+              maxIterations={5}
               characters="ABCD1234!?"
               className="revealed"
               parentClassName="all-letters"
@@ -193,6 +193,7 @@ const ProjectCardsContainer = () => {
 };
 
 export default ProjectCardsContainer;
+
 
 
 
