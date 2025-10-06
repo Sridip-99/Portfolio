@@ -1048,7 +1048,7 @@ function SplashCursor({
   ]);
 
   return (
-    <div className="fixed top-0 left-0 z-50 pointer-events-none w-full max-h-[100vh]">
+    <div className="fixed top-0 left-0 z-30 pointer-events-none w-full max-h-[100vh]">
       <canvas ref={canvasRef} id="fluid" className="w-screen h-screen block"></canvas>
     </div>
   );
