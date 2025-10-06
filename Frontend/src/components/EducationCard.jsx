@@ -7,7 +7,7 @@ const EducationCard = (props) => {
     <>
         <div className='card'>
             <div className='img-container max-h-[25vh] w-full rounded-md overflow-hidden'>
-                <img src={props.image} alt={props.imgAltText} className='brightness-95 w-full h-auto object-cover'/>
+                <img loading="lazy" src={props.image} alt={props.imgAltText} className='brightness-95 w-full h-auto object-cover'/>
             </div>
             <h1 className='w-full text-left text-slate-400 mt-4 text-2xl font-semibold'>{props.schoolName}</h1>
             <p className='w-full text-left font-light text-zinc-400'>Board: <span className='text-slate-300'>{props.board}</span></p>
@@ -21,3 +21,4 @@ const EducationCard = (props) => {
 
 
 export default EducationCard
+
