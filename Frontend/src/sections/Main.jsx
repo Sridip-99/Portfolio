@@ -1,12 +1,19 @@
 import React from 'react'
 import LogoLoop from '../components/LogoLoop'
 import Hero from './Hero'
-import About from './About'
-import Education from './Education';
-import Projects from './Projects';
-import Contact from './Contact';
-import Certifications from './Certifications';
-import Testimonials from './Testimonials';
+
+// import About from './About'
+// import Education from './Education';
+// import Projects from './Projects';
+// import Contact from './Contact';
+// import Certifications from './Certifications';
+// import Testimonials from './Testimonials';
+const About = React.lazy(() => import('./About'));
+const Education = React.lazy(() => import('./Education'));
+const Projects = React.lazy(() => import('./Projects'));
+const Certifications = React.lazy(() => import('./Certifications'));
+const Testimonials = React.lazy(() => import('./Testimonials'));
+const Contact = React.lazy(() => import('./Contact'));
 
 const imageLogos = [
   { src: "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/logoloop/CANVA.webp", alt: "CANVA", href: "https://www.canva.com/en_in/" },
@@ -74,6 +81,7 @@ const Main = () => {
 
 
 export default Main
+
 
 
 
