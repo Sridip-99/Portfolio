@@ -23,7 +23,7 @@ const Hero = () => {
       {!isTablet && (
         <Aurora
           colorStops={["#3a506b", "#5bc0be", "#1c2541"]}
-          blend={0.5}
+          blend={0.25}
           amplitude={1.0}
           speed={0.25}
         />
@@ -116,6 +116,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
