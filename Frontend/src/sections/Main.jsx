@@ -36,7 +36,7 @@ const imageLogos = [
 const Main = () => {
   return (
     <>
-        <Hero style={{ minHeight: "100vh" }}/>
+        <Hero/>
         <About/>
         <Education/>
         <Projects/>
@@ -74,6 +74,7 @@ const Main = () => {
 
 
 export default Main
+
 
 
 
