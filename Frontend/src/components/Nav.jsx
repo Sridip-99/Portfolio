@@ -17,13 +17,13 @@ const Nav = () => {
                 </ul>
             </nav>
             <div className="social-links">
-                <a href="https://www.linkedin.com/in/sridip-tah99" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/sridip-tah99" target="_blank" rel="noopener noreferrer" aria-label="let's connect with my linkedin profile">
                     <img src="https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/social-icons/linkedin.webp" width="30px" alt="Linkedin"/>
                 </a>
-                <a href="https://www.facebook.com/sridip.tah.7" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/sridip.tah.7" target="_blank" rel="noopener noreferrer" aria-label="let's connect with my facebook account">
                     <img src="https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/social-icons/facebook.webp" width="30px" alt="Facebook"/>
                 </a>
-                <a href="https://wa.me/+919883391286" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/+919883391286" target="_blank" rel="noopener noreferrer" aria-label="drop a message to my whatsapp account">
                     <img src="https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/social-icons/whatsapp.webp"  width="30px" alt="Whatsapp"/>
                 </a>
             </div>
@@ -34,3 +34,4 @@ const Nav = () => {
 }
 
 export default Nav
+
