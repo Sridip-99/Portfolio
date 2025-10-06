@@ -98,6 +98,7 @@ const Testimonials = () => {
             <div className="navbtns">
                 {items.map((_, idx) => (
                 <button
+                    aria-label={`review no: ${idx}`} 
                     key={idx}
                     className={`btn ${currentIndex === idx ? "expand" : ""}`}
                     data-index={idx}
@@ -111,5 +112,6 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+
 
 
