@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className='w-full mx-auto my-0 p-4 text-slate-300 bg-slate-900 text-md md:text-xl text-center rounded-tl-2xl rounded-tr-2xl' style={{ zIndex: "51" }}>
+      <div className='w-full mx-auto my-0 p-4 text-slate-300 bg-slate-900 text-md md:text-xl text-center rounded-tl-2xl rounded-tr-2xl' style={{ zIndex: "99" }}>
         <p>
           <a href="https://sridiptah99.netlify.app" className='hover:text-slate-400'>Sridip Tah</a>
           <span className='font-semibold'> || </span>
@@ -17,6 +17,7 @@ const Footer = () => {
 
 
 export default Footer
+
 
 
 
