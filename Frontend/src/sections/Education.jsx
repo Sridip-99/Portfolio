@@ -65,7 +65,7 @@ const Education = () => {
                         animateOpacity
                         scale={.8}
                         threshold={0.1}
-                        delay={0 + idx * 0.3}
+                        delay={0 + idx * 0.15}
                     > 
                         <EducationCard
                             schoolName={elem.schoolName}
@@ -87,6 +87,7 @@ const Education = () => {
 
 
 export default Education
+
 
 
 
