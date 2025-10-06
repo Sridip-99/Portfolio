@@ -41,6 +41,7 @@
   font-weight: 400;
   color-scheme: light dark;
   font-family: 'Poppins','system-ui','Arial';
+  font-display: swap;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
