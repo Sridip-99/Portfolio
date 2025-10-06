@@ -84,6 +84,7 @@ const ContactForm = () => {
               duration: 3000,
               position: "bottom-right",
               style: {
+                zIndex: 1001,
                 background: "#1e293b",
                 color: "#fff",
                 borderRadius: "12px",
@@ -101,6 +102,7 @@ const ContactForm = () => {
               duration: 3000,
               position: "bottom-right",
               style: {
+                zIndex: 1001,
                 background: "#1e293b",
                 color: "#fff",
                 borderRadius: "12px",
@@ -119,7 +121,7 @@ const ContactForm = () => {
               duration: 3000,
               position: "bottom-right",
               style: {
-                zIndex: 200,
+                zIndex: 1001,
                 background: "#1e293b",
                 color: "#ffffffbb",
                 borderRadius: "12px",
@@ -213,5 +215,6 @@ const ContactForm = () => {
 }
 
 export default ContactForm;
+
 
 
