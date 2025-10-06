@@ -50,7 +50,7 @@ const Main = () => {
             scaleOnHover
             fadeOut
             fadeOutColor="rgb(6,0,16)"
-            ariaLabel="Technology partners"
+            ariaLabel="Tech Stack"
         />
         <LogoLoop
             logos={imageLogos}
@@ -62,7 +62,7 @@ const Main = () => {
             scaleOnHover
             fadeOut
             fadeOutColor="rgb(6,0,16)"
-            ariaLabel="Technology partners"
+            ariaLabel="Tech Stack"
         />
         <Certifications/>
         <Testimonials/>
@@ -74,5 +74,6 @@ const Main = () => {
 
 
 export default Main
+
 
 
