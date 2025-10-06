@@ -42,7 +42,7 @@ const Main = () => {
         <Projects/>
         <LogoLoop
             logos={imageLogos}
-            speed={40}
+            speed={30}
             direction="left"
             logoHeight={48}
             gap={40}
@@ -54,7 +54,7 @@ const Main = () => {
         />
         <LogoLoop
             logos={imageLogos}
-            speed={40}
+            speed={30}
             direction="right"
             logoHeight={48}
             gap={40}
@@ -74,4 +74,5 @@ const Main = () => {
 
 
 export default Main
+
 
