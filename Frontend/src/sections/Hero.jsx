@@ -18,6 +18,7 @@ const Hero = () => {
   const isTablet = useIsTablet();
   return (
     <>
+      <section id='hero'>
       {!isTablet && <SplashCursor />}
       {!isTablet && (
         <Aurora
@@ -109,11 +110,13 @@ const Hero = () => {
           </a>
 
       </div>
+        </section>
     </>
   )
 }
 
 export default Hero
+
 
 
 
