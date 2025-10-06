@@ -117,7 +117,7 @@ const ProjectCardsContainer = () => {
             animateOpacity
             scale={0.8}
             threshold={0.1}
-            delay={0 + (idx >= 3 ? (idx - 3) * 0.3 : idx * 0.3)}
+            delay={0 + (idx >= 3 ? (idx - 3) * 0.15 : idx * 0.15)}
           >
             <ProjectCard {...elem} onExpand={handleExpand} isExpanded={false} />
           </AnimatedContent>
@@ -193,6 +193,7 @@ const ProjectCardsContainer = () => {
 };
 
 export default ProjectCardsContainer;
+
 
 
 
