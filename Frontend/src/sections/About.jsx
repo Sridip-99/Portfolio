@@ -45,7 +45,7 @@ const About = () => {
             </div>
             <div className='w-[100%] overflow-hidden rounded-ss-3xl rounded-ee-3xl rounded-es-md rounded-se-md lg:w-[30%]'>
                 <img 
-                    className='w-[100%] h-auto'
+                    className='w-[100%] h-auto aspect-square object-cover'
                     src="./profile.webp"
                     alt="Sridip Tah's Profile Image"
                 />
@@ -58,5 +58,6 @@ const About = () => {
 
 
 export default About
+
 
 
