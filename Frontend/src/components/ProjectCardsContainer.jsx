@@ -177,7 +177,7 @@ const ProjectCardsContainer = () => {
           </a>
           <DecryptedText
             text=" for more Projects..."
-            speed={100}
+            speed={60}
             animateOn="view"
             revealDirection="left"
             maxIterations={10}
@@ -193,6 +193,7 @@ const ProjectCardsContainer = () => {
 };
 
 export default ProjectCardsContainer;
+
 
 
 
