@@ -18,7 +18,7 @@ const Hero = () => {
   const isTablet = useIsTablet();
   return (
     <>
-      <section id='hero'>
+      <section id='hero' className='flex justify-center items-center h-screen w-full overflow-hidden relative'>
       {!isTablet && <SplashCursor />}
       {!isTablet && (
         <Aurora
@@ -116,6 +116,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
