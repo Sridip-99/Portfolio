@@ -180,7 +180,7 @@ const ProjectCardsContainer = () => {
             speed={60}
             animateOn="view"
             revealDirection="left"
-            maxIterations={10}
+            maxIterations={5}
             characters="ABCD1234!?"
             className="revealed"
             parentClassName="all-letters"
@@ -193,6 +193,7 @@ const ProjectCardsContainer = () => {
 };
 
 export default ProjectCardsContainer;
+
 
 
 
