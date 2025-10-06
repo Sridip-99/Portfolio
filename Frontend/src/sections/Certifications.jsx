@@ -105,7 +105,7 @@ const Certifications = () => {
                     </a>
                     <DecryptedText
                         text=" account to see my badges..."
-                        speed={100}
+                        speed={60}
                         animateOn="view"
                         revealDirection="left"
                         maxIterations={10}
@@ -123,6 +123,7 @@ const Certifications = () => {
 
 
 export default Certifications
+
 
 
 
