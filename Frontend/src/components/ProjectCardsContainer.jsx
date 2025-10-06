@@ -15,7 +15,7 @@ const ProjectCardsContainer = () => {
         "id": "container1",
         "name" : "Epidemic Prediction",
         "bgColor" : "linear-gradient(135deg, #00b8ff 0%, #7ed957 100%)",
-        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-1.png",
+        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-1.webp",
         "imgAltText" : "Full-stack + ML Project image",
         "about" : "Epidemic Prediction Web App: A Django-based full-stack project using Machine Learning (Random Forest) to predict epidemic growth. Accepts inputs like location, population density, and traveler ratios. Features dynamic graphs, WHO-guided thresholds, and an interactive UI for public health analysis and prediction.",
         "type" : "Full-stack + ML Project",
@@ -28,7 +28,7 @@ const ProjectCardsContainer = () => {
         "id": "container2",
         "name" : "Puja Beauty Studio",
         "bgColor" : "linear-gradient(135deg, #ff9ceb 0%, #5900a8 100%)",
-        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-2.png",
+        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-2.webp",
         "imgAltText" : "Puja Beauty Studio Project image",
         "about" : "Responsive Front-End project for store recognition to attract customer.",
         "type" : "Front-End Project",
@@ -41,7 +41,7 @@ const ProjectCardsContainer = () => {
         "id": "container3",
         "name" : "SecPDF",
         "bgColor" : "linear-gradient(135deg, #a6fdb8 0%, #00ff6e 100%)",
-        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-3.png",
+        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-3.webp",
         "imgAltText" : "SecPDF Project image",
         "about" : "A Django Web Application to create password protected PDF files",
         "type" : "Full-Stack + Cybersecurity Project",
@@ -54,7 +54,7 @@ const ProjectCardsContainer = () => {
         "id": "container4",
         "name" : "HTTP Traffic Analysis",
         "bgColor" : "linear-gradient(135deg, #2b48caff 0%, #8df95f 100%)",
-        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-4.png",
+        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-4.webp",
         "imgAltText" : "Wireshark HTTP Traffic Analysis Project image",
         "about" : "Computer Network Protocol Understanding and creating Markdown report",
         "type" : "Network Protocol Understanding",
@@ -67,7 +67,7 @@ const ProjectCardsContainer = () => {
         "id": "container5",
         "name" : "Password-Cracker",
         "bgColor" : "linear-gradient(135deg, #ed1b34 0%, #f36878ff 100%)",
-        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-5.png",
+        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-5.webp",
         "imgAltText" : "Password-Cracker Project image",
         "about" : "A simple Python-based password cracker for ZIP and PDF files using wordlist (Brute-force dictionary) attacks. Includes a multithreaded PDF cracker for faster performance. Built for ethical hacking and cybersecurity learning.",
         "type" : "CyberSecurity Project",
@@ -80,7 +80,7 @@ const ProjectCardsContainer = () => {
         "id": "container6",
         "name" : "Tic-Tac-Toe",
         "bgColor" : "linear-gradient(90deg, #f4b842 0%, #df3c81 25%, #63bce4 50%, #97c985 75%, #ffeb3bff 100%)",
-        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-6.png",
+        "image" : "https://raw.githubusercontent.com/Sridip-99/Portfolio/refs/heads/main/Frontend/src/assets/img/projects/proj-6.webp",
         "imgAltText" : " Project image",
         "about" : "A simple tic-tac-toe game made using Javascript (learning purpose)",
         "type" : "Front-End (Game) Project",
@@ -193,6 +193,7 @@ const ProjectCardsContainer = () => {
 };
 
 export default ProjectCardsContainer;
+
 
 
 
