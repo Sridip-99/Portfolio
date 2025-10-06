@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 // import Aurora from '../components/Aurora'
+// import SplashCursor from '../components/SplashCursor'
 const Aurora = React.lazy(() => import("../components/Aurora"));
-import SplashCursor from '../components/SplashCursor'
+const SplashCursor = React.lazy(() => import("../components/SplashCursor"));
 
 function useIsTablet(breakpoint = 768) {
   const [isTablet, setIsTablet] = useState(window.innerWidth < breakpoint);
@@ -113,6 +114,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
