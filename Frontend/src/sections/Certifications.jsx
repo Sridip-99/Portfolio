@@ -64,7 +64,7 @@ const Certifications = () => {
                         animateOpacity
                         scale={.8}
                         threshold={0.1}
-                        delay={0 + (idx >= 2 ? (idx - 2) * 0.15 : idx * 0.15)}
+                        delay={0 + (idx >= 2 ? (idx - 2) * 0.25 : idx * 0.25)}
                     > 
                         <CertificationCard
                             id={elem.id}
@@ -123,6 +123,7 @@ const Certifications = () => {
 
 
 export default Certifications
+
 
 
 
