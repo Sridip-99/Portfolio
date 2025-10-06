@@ -37,7 +37,7 @@ section{
   border-radius: 10px;
   backdrop-filter: blur(60px) grayscale(.5);
   box-shadow: inset 2px 2px 4px #ffffff2a;
-  height: 50vh;
+  height: fit-content(50vh);
   padding: .7rem;
   display: flex;
   flex-direction: column;
@@ -165,3 +165,4 @@ section{
   30% { opacity: 0; }
   100% { opacity: 0; }
 }
+
