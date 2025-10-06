@@ -70,7 +70,7 @@ const ContactSection = () => {
 
           {/* Contact Info */}
           <div className="flex flex-col space-y-4 w-full">
-            <a href="tel:+919883391286">
+            <a href="tel:+919883391286" aria-label="Contact via Phone">
               <GlareHover
                 glareColor="#ffffff"
                 glareOpacity={0.3}
@@ -85,7 +85,7 @@ const ContactSection = () => {
                 </div>
               </GlareHover>
             </a>
-            <a href="mailto:sridip2003@gmail.com">
+            <a href="mailto:sridip2003@gmail.com" aria-label="Contact via Email">
               <GlareHover
                 glareColor="#ffffff"
                 glareOpacity={0.3}
@@ -104,19 +104,19 @@ const ContactSection = () => {
 
           {/* Social Icons */}
           <div className="flex flex-row space-x-5 text-slate-300">
-            <a href="https://github.com/sridip-99" target="_blank" rel="noreferrer">
+            <a href="https://github.com/sridip-99" target="_blank" rel="noreferrer" aria-label="Checkout my Github account">
               <FaGithub className="w-7 h-7 hover:text-purple-700 transition" />
             </a>
-            <a href="https://www.linkedin.com/in/sridip-tah99/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/sridip-tah99/" target="_blank" rel="noreferrer" aria-label="Checkout my Linkedin profile">
               <FaLinkedin className="w-7 h-7 hover:text-blue-600 transition" />
             </a>
-            <a href="https://x.com/tah_sridip" target="_blank" rel="noreferrer">
+            <a href="https://x.com/tah_sridip" target="_blank" rel="noreferrer" aria-label="Connect with me by my X account">
               <FaTwitter className="w-7 h-7 hover:text-blue-400 transition" />
             </a>
-            <a href="https://www.facebook.com/sridip.tah.7" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/sridip.tah.7" target="_blank" rel="noreferrer" aria-label="Connect with me by my facebook account">
               <FaFacebook className="w-7 h-7 hover:text-blue-500 transition" />
             </a>
-            <a href="https://wa.me/+919883391286" target="_blank" rel="noreferrer">
+            <a href="https://wa.me/+919883391286" target="_blank" rel="noreferrer" aria-label="Drop a message to my whatsapp account">
               <FaWhatsapp className="w-7 h-7 hover:text-green-400 transition" />
             </a>
           </div>
@@ -140,6 +140,7 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+
 
 
 
