@@ -24,7 +24,7 @@ const ProjectCard = (props) => {
   return (
     <div className='card2'>
       <div className='img-container group w-full border-2 border-slate-600 rounded-md overflow-hidden'>
-        <img src={props.image} alt={props.imgAltText} className='brightness-95 w-full h-full overflow-hidden object-cover'/>
+        <img loading="lazy" src={props.image} alt={props.imgAltText} className='brightness-95 w-full h-full overflow-hidden object-cover'/>
         <div className='card-inner pt-1 pb-2 px-2 rounded-sm bg-slate-950 duration-300 translate-y-[-100%] lg:translate-y-[-30%] lg:group-hover:translate-y-[-100%]'>
           <h1 className='w-full text-center text-slate-400 mt-1 text-xl lg:text-2xl font-semibold'>{props.name}</h1>
           <p className='w-full text-center font-light text-zinc-400'>Type: <span className='text-slate-300'>{props.type}</span></p>
@@ -43,5 +43,6 @@ const ProjectCard = (props) => {
 }
 
 export default ProjectCard
+
 
 
