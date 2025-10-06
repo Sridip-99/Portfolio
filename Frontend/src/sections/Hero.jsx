@@ -16,11 +16,10 @@ function useIsTablet(breakpoint = 768) {
 
 const Hero = () => {
   const isTablet = useIsTablet();
-  const isHighPerf = window.navigator.hardwareConcurrency > 6;
   return (
     <>
       <section id='hero' className='flex justify-center items-center h-screen w-full overflow-hidden relative bg-[rgb(6,0,16)]'>
-      {!isTablet && isHighPerf && <SplashCursor />}
+      {!isTablet && <SplashCursor />}
       {!isTablet && (
         <Aurora
           colorStops={["#3a506b", "#5bc0be", "#1c2541"]}
@@ -117,6 +116,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
