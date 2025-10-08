@@ -31,7 +31,7 @@ const Hero = () => {
 
       <div className='z-50 h-[80vh] md:h-fit mb-30 md:mb-0 relative md:absolute top-[15vh] md:top-[25vh] max-w-[1100px] w-full mx-auto flex flex-col md:flex-row justify-center items-center gap-4 lg:gap-[20px] px-2 md:px-0'>
         <div className='w-full md:w-[55%] h-fit md:h-[60vh] flex flex-col justify-center items-start gap-2 md:gap-4 text-gray-100'>
-          <h2 className="text-4xl md:text-5xl text-left text-slate-100 font-bold mx-10">Sridip Tah</h2>
+          <h1 className="text-4xl md:text-5xl text-left text-slate-100 font-bold mx-10">Sridip Tah</h1>
           <div className="role-container">
               <h3 className="role-text text-lg md:text-2xl text-left text-verdigris mx-10 min-h-[2.5em] transition-opacity duration-500">
                 <span>Full-Stack Developer</span>
@@ -116,6 +116,7 @@ const Hero = () => {
 }
 
 export default Hero
+
 
 
 
